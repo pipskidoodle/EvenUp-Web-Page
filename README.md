@@ -38,6 +38,10 @@ I also thought about using react to build this, but since we don't have any elem
 
 ## Scripting
 - Wrote function to update the copyright year. One of my least favorite things is when this is hard coded and a company forgets to update it
+  - Just checks what the current year is and fills the innerText value of the copyright span container in the footer
 - Needed to write script for the tile slider
+  - A more simple script, just using event listeners to scroll through a div
 - Needed to make sure that the script accounted for when the slider moved away from one edge or another to ensure it hid the arrow control on that side
+  - Another event listener to check what if there was any scrolling in the div, then check if the user was currently all the way to the right or left
 - Needed to write script for the text transition in and out on the splash section
+  - I used chatGPT to help with this one, just because it is a bit more complicated conceptually for me and I didn't have the brain power at the end to write it
